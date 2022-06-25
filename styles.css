@@ -26,12 +26,9 @@ body {
     border-radius: 1em;
 }
 
-#qr-div {
-    margin: 1em;
-}
-
 #card-qr {
-    width: 100%;
+    width: 18em;
+    margin: 1em 1em 0 1em;
     border-radius: .5rem;
 }
 
@@ -48,15 +45,15 @@ body {
 
 #subtitle {
     color: var(--Grayish-blue);
-    margin-inline: 2em;
+    margin-inline: 1em;
     margin-bottom: 3em;
 }
 
-.attribution {
+#attribution {
     font-size: 11px;
     text-align: center;
 }
 
-.attribution a {
+#attribution a {
     color: hsl(228, 45%, 44%);
 }
